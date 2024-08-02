@@ -31,21 +31,6 @@ window:Button("8.Arm Wrestler", function()
 loadstring(game:HttpGet('https://raw.githubusercontent.com/ToraScript/Script/0caac1314a9170e0486618bdc2d365428eba8e85/TheaGamesArmWrestle'))()
 end)
 
-window:Button("Anti AFK", function()
-loadstring(game:HttpGet('https://raw.githubusercontent.com/DenzZzG/enti/main/c'))()
-end)
-
-window:Button("Rejoin", function()
-loadstring(game:HttpGet('https://raw.githubusercontent.com/Morples/Server-Rejoin/main/Script'))()
-end)
-
-window:Button("Server Hop", function()
-loadstring(game:HttpGet('https://raw.githubusercontent.com/Morples/Server-hop/main/Script'))()
-end)
-
-window:Button("Close", function()
-library:Destroy()
-end)
 
 
 local window = library:Window("Teleport")
