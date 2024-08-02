@@ -137,12 +137,13 @@ window:Button("Adopt Me", function()
     local gameID = "920587237"
     Teleport(gameID)
 end)
-window:Button("Horse Race", function()
-    local gameID = "15147661794"
-    Teleport(gameID)
-end)
+
 window:Button("Launch Into Space", function()
     local gameID = "15535115259"
+    Teleport(gameID)
+end)
+window:Button("Horse Race", function()
+    local gameID = "15147661794"
     Teleport(gameID)
 end)
 window:Button("Pet Catchers", function()
